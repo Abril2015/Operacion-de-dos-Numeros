@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Operacionesde2Numeros.MainPage">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Label Text="Operaciones de 2 Numeros"/>
+        <Entry Placeholder="Dato1" x:Name="Dato1"/>
+        <Entry Placeholder="Dato2" x:Name="Dato2"/>
+        <Entry Placeholder="Resultado" x:Name="Resultado" IsEnabled="False"/>
+        <Button Text="Suma" Clicked="Button_Clicked"/>
+        <Button Text="Resta" Clicked="Button_Clicked"/>
+        <Button Text="Multiplicacion" Clicked="Button_Clicked"/>
+        <Button Text="Division" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
